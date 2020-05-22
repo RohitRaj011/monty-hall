@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monty Hall Game</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="shortcut icon" href="images/door.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <img class="door" src="images/door.png" alt="door-guess" />
+      <h1 class="monty">The Monty Hall Game</h1>
+      <a class="header-links" href="#">Play</a>
+      <a class="header-links" href="#">How it Works</a>
+      <a class="header-links" href="#">About</a>
+    </div>
+    <div id="game">
+      <a href="#" class="btn">START</a>
+      <div class="screen">
+        <h1>Welcome</h1>
+        <p>Here's a Chance to Win 💲1,000,000 💰</p>
+        <p>
+          All you have to do is choose a Door behind one has the money of your
+          dream.
+        </p>
+        <p>Take Your PICK</p>
+        <div id="d1">
+          <img class="image1" src="images/door1.png" alt="door1" />
+          <div class="overlay1">
+            <div class="text">
+              <a onclick="choose(1)" class="dor">Door 1</a>
+            </div>
+          </div>
+        </div>
+        <div id="d2">
+          <img class="image2" src="images/door1.png" alt="door2" />
+          <div class="overlay2">
+            <div class="text">
+              <a onclick="choose(2)" class="dor">Door 2</a>
+            </div>
+          </div>
+        </div>
+        <div id="d3">
+          <img class="image3" src="images/door1.png" alt="door3" />
+          <div class="overlay3">
+            <div class="text">
+              <a onclick="choose(3)" class="dor">Door 3</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="switch">
+        <p id="prob1" class="prob">PROBABILITY</p>
+        <p class="selection1">!</p>
+        <p class="selection2">!</p>
+        <div id="d11">
+          <img class="image1" src="images/door1.png" alt="door1" />
+          <div class="overlay1">
+            <div class="text">
+              <a onclick="change(1)" class="dor">Door 1</a>
+            </div>
+          </div>
+        </div>
+        <div id="d22">
+          <img class="image2" src="images/door1.png" alt="door2" />
+          <div class="overlay2">
+            <div class="text">
+              <a onclick="change(2)" class="dor">Door 2</a>
+            </div>
+          </div>
+        </div>
+        <div id="d33">
+          <img class="image3" src="images/door1.png" alt="door3" />
+          <div class="overlay3" id="o3">
+            <div class="text">
+              <a onclick="change(3)" class="dor">Door 3</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ending">
+        <h1>Congratulations! You have WON 💲1,000,0000 💰</h1>
+        <p id="prob2" class="prob">PROBABILITY</p>
+      </div>
+      <div class="ending2">
+        <h1>Sorry! 😕 Better Luck Next Time 😁</h1>
+        <p id="prob3" class="prob">PROBABILITY</p>
+      </div>
+      <div class="restart">
+        <a href="#" class="btn2">Play Again</a>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

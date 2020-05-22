@@ -1,0 +1,260 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #f1ebbb;
+  font-family: "PT Sans", sans-serif;
+}
+
+/*********HEADER DIV*********/
+#header {
+  margin: 0;
+  width: 100%;
+  height: 9rem;
+  background-color: #45046a;
+}
+.door {
+  position: absolute;
+  left: 10rem;
+  top: 0.75rem;
+  width: 120px;
+}
+.monty {
+  position: absolute;
+  top: 1.5rem;
+  left: 18.75rem;
+  margin: 0;
+  color: #b5076b;
+  font-size: 3.5rem;
+  font-family: "PT Sans", sans-serif;
+}
+.header-links {
+  font-size: 2rem;
+  position: relative;
+  top: 2.7rem;
+  left: 25rem;
+  margin: 10px 20px;
+  color: #b5076b;
+  text-decoration: none;
+}
+.header-links:hover {
+  color: #ff847c;
+}
+
+/*********GAME DIV*********/
+#game {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.btn {
+  background-color: #b5076a;
+  border-radius: 42px;
+  border: 12px solid #45046a;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "PT Sans", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 24px 36px;
+  text-decoration: none;
+  position: relative;
+  top: 5rem;
+}
+.btn:hover {
+  background-color: #5c2a9d;
+}
+.btn:active {
+  position: relative;
+  top: 5rem;
+}
+
+.btn2 {
+  background-color: #b5076a;
+  border-radius: 42px;
+  border: 12px solid #45046a;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "PT Sans", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 24px 36px;
+  text-decoration: none;
+  position: relative;
+  top: 3rem;
+  margin: 1rem 0;
+}
+.btn2:hover {
+  background-color: #5c2a9d;
+}
+.btn2:active {
+  position: relative;
+  top: 5rem;
+}
+
+/******Choose Menu******/
+.screen {
+  margin: 0;
+  width: 100%;
+  position: relative;
+}
+#d1 {
+  margin-top: 2rem;
+  width: 300px;
+  position: absolute;
+  left: 15%;
+}
+#d2 {
+  margin-top: 2rem;
+  width: 300px;
+  position: absolute;
+  left: 40%;
+}
+#d3 {
+  margin-top: 2rem;
+  width: 300px;
+  position: absolute;
+  left: 65%;
+}
+#d11 {
+  margin-top: 2rem;
+  width: 300px;
+  position: absolute;
+  left: 15%;
+}
+#d22 {
+  margin-top: 2rem;
+  width: 300px;
+  position: absolute;
+  left: 40%;
+}
+#d33 {
+  margin-top: 2rem;
+  width: 300px;
+  position: absolute;
+  left: 65%;
+}
+.image1 {
+  display: block;
+  width: 300px;
+  opacity: 1;
+  margin-bottom: 10px;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.image2 {
+  display: block;
+  width: 300px;
+  opacity: 1;
+  margin-bottom: 10px;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.image3 {
+  display: block;
+  width: 300px;
+  opacity: 1;
+  margin-bottom: 10px;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.overlay1 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay2 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay3 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.dor {
+  background-color: #b5076a;
+  border-radius: 6px;
+  border: 3px solid #45046a;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  padding: 16px 21px;
+  text-decoration: none;
+}
+.dor:hover {
+  background-color: #5c2a9d;
+}
+.dor:active {
+  position: relative;
+  top: 1px;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: "Lobster", cursive;
+  color: #5c2a9d;
+}
+p {
+  margin: 0 0 1rem 0;
+  font-family: "PT Sans", sans-serif;
+  font-size: 2rem;
+  color: #5c2a9d;
+}
+.prob {
+  margin: 2rem 0;
+  font-family: "PT Sans", sans-serif;
+  font-size: 2rem;
+  color: #5c2a9d;
+}
+/**********SWITCH SCREEN********/
+.switch {
+  margin: 0;
+  width: 100%;
+  position: relative;
+}
+.selection1 {
+  margin: 1rem auto 0 auto;
+  position: relative;
+  font-family: "PT Sans", sans-serif;
+}
+.selection2 {
+  margin: 1rem auto 0 auto;
+  position: relative;
+  font-family: "PT Sans", sans-serif;
+}
+.door-switch {
+  margin: 2rem auto;
+  width: 200px;
+}
+.restart {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
