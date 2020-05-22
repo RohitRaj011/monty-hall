@@ -1,7 +1,7 @@
 body {
   margin: 0;
   text-align: center;
-  background-color: #f1ebbb;
+  background-color: #b2ebf2;
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -10,7 +10,7 @@ body {
   margin: 0;
   width: 100%;
   height: 9rem;
-  background-color: #45046a;
+  background-color: #120136;
 }
 .door {
   position: absolute;
@@ -23,7 +23,7 @@ body {
   top: 1.5rem;
   left: 18.75rem;
   margin: 0;
-  color: #b5076b;
+  color: #035aa6;
   font-size: 3.5rem;
   font-family: 'PT Sans', sans-serif;
 }
@@ -31,13 +31,13 @@ body {
   font-size: 2rem;
   position: relative;
   top: 2.7rem;
-  left: 25rem;
+  left: 30rem;
   margin: 10px 20px;
-  color: #b5076b;
+  color: #035aa6;
   text-decoration: none;
 }
 .header-links:hover {
-  color: #ff847c;
+  color: #ccf0e1;
 }
 
 /*********GAME DIV*********/
@@ -48,9 +48,9 @@ body {
   position: relative;
 }
 .btn {
-  background-color: #b5076a;
+  background-color: #035aa6;
   border-radius: 42px;
-  border: 12px solid #45046a;
+  border: 12px solid #120136;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
@@ -63,7 +63,7 @@ body {
   top: 5rem;
 }
 .btn:hover {
-  background-color: #5c2a9d;
+  background-color: #024249;
 }
 .btn:active {
   position: relative;
@@ -71,9 +71,9 @@ body {
 }
 
 .btn2 {
-  background-color: #b5076a;
+  background-color: #035aa6;
   border-radius: 42px;
-  border: 12px solid #45046a;
+  border: 12px solid #120136;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
@@ -87,7 +87,7 @@ body {
   margin: 1rem 0;
 }
 .btn2:hover {
-  background-color: #5c2a9d;
+  background-color: #024249;
 }
 .btn2:active {
   position: relative;
@@ -196,9 +196,9 @@ body {
 }
 
 .dor {
-  background-color: #b5076a;
+  background-color: #035aa6;
   border-radius: 6px;
-  border: 3px solid #45046a;
+  border: 3px solid #120136;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
@@ -208,7 +208,7 @@ body {
   text-decoration: none;
 }
 .dor:hover {
-  background-color: #5c2a9d;
+  background-color: #024249;
 }
 .dor:active {
   position: relative;
@@ -218,19 +218,19 @@ body {
 h1 {
   font-size: 5rem;
   font-family: 'Lobster', cursive;
-  color: #5c2a9d;
+  color: #024249;
 }
 p {
   margin: 0 0 1rem 0;
   font-family: 'PT Sans', sans-serif;
   font-size: 2rem;
-  color: #5c2a9d;
+  color: #024249;
 }
 .prob {
   margin: 2rem 0;
   font-family: 'PT Sans', sans-serif;
   font-size: 2rem;
-  color: #5c2a9d;
+  color: #024249;
 }
 /**********SWITCH SCREEN********/
 .switch {
