@@ -212,7 +212,8 @@ function change(choice) {
     });
   } else {
     prob = (w / n) * 100;
-    probability(prob);
+    var p = prob.toFixed(2);
+    probability(p);
     $(document).ready(function () {
       $(".switch").hide(0);
       $(".screen").hide(0);
